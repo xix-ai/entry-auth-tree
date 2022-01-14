@@ -1,18 +1,5 @@
 # Entry
 
-## TODO
-
-- Prerequisites: sign up for Entry, create a workspace
-- General documentation: get started with ForgeRock
-- Entry authentication tree
-- Normalization script
-- Social Identity Provider configuration
-
-## Done
-
-- Disclaimer
-
-
 # Prerequisites
 
 To get started with this guide you need an existing Entry account with admin access to a Workspace that will allow you to create a client.
