@@ -80,6 +80,7 @@ Next we will look at each node's settings.
 - `password` for **Password Attribute**
 - `mail` for **Identity Attribute**
 - Check **Include local authentication**
+- In the field **Filter Enabled Providers** there should be only one value, matching the name of the Social IdP you have configured (in our case it's `forgerock`)
 
 ### Social Provider Handler Node
 
