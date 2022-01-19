@@ -54,6 +54,14 @@ After completing this step, your configuration should look approximately like th
 ![](idp_config_part1.png)
 ![](idp_config_part2.png)
 
+### Update UI config
+
+We will need this step for adding a "Log in with Entry" button at the beginning of the authentication flow, which will make for a smoother user experience.
+
+These settings will not affect the flow, but make for a good default config:
+
+![](ui_config.png)
+
 ## Authentication Tree
 
 Now, it's time to create a Journey that will define the authentication flow.
@@ -71,6 +79,7 @@ Next we will look at each node's settings.
 **Select Identity Provider** should contain the following attributes:
 - `password` for **Password Attribute**
 - `mail` for **Identity Attribute**
+- Check **Include local authentication**
 
 ### Social Provider Handler Node
 
