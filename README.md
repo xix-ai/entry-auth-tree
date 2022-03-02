@@ -66,7 +66,7 @@ Finally, to add Entry logo to your button, use `buttonImage` property in the con
 
 `buttonImage` property accepts absolute URLs, so you can host the file with Entry logo you need on a CDN or just link one from this repository.
 
-Depending on the exact resolution and button style you need, you can find an appropriate file in the [Resources])(./resources) directory.
+Depending on the exact resolution and button style you need, you can find an appropriate file in the [Resources](./resources) directory.
 
 ## Authentication Tree
 
