@@ -62,6 +62,12 @@ These settings will not affect the flow, but make for a good default config:
 
 ![](ui_config.png)
 
+Finally, to add Entry logo to your button, use `buttonImage` property in the config above. You will need to add a URL of the file with logo as the value.
+
+`buttonImage` property accepts absolute URLs, so you can host the file with Entry logo you need on a CDN or just link one from this repository.
+
+Depending on the exact resolution and button style you need, you can find an appropriate file in the [Resources])(./resources) directory.
+
 ## Authentication Tree
 
 Now, it's time to create a Journey that will define the authentication flow.
